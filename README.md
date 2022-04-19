@@ -1,6 +1,6 @@
 # Reformar para usar GraphQL
 
-##Validaciones:
+##Validaciones
 
 ### Insertamos el primer producto
 mutation {
