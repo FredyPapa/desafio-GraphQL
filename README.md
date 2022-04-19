@@ -1,8 +1,9 @@
 # Reformar para usar GraphQL
 
-##Validaciones
+## Validaciones:
 
 ### Insertamos el primer producto
+~~~
 mutation {
   addProducto( title:"Producto 1", price:"500", thumbnail:"https://image.shutterstock.com/image-vector/vector-illustration-set-rulers-flat-260nw-1052690225.jpg") {
     id
@@ -11,6 +12,7 @@ mutation {
     thumbnail
   }
 }
+~~~
 
 ### Insertamos el segundo producto
 mutation {
